@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Nav */
+.navega {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    z-index: 2;
+}
+
+/*Carousel*/
+.carousel {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+/*HEADER*/
+body {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
