@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     border: 0;
-    
 }
-/* Smooth scroll */
 
-/*HEADER*/
 body {
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
-    }
+}
 
 /* Nav */
 .navega {
@@ -30,7 +27,13 @@ body {
     width: 100%;
     top: 0;
 }
-/*section*/
+
 .fondo {
     background-color: #000000;
+}
+
+.fondo_iconos {
+    text-align: center;
+    background-color: #00b7ff;
+    padding: 5px;
 }
