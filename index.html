@@ -24,10 +24,10 @@
     <!--Barra de navegación y carousel-->
     <header>
         <!-- Barra de navegacion -->
-        <nav class="navega navbar-expand-lg navbar-dark fixed-top">
+        <nav class="navega navbar navbar-expand-lg nav-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" alt="logotip" width="70px" height="50px">
+                <a class="navbar-brand navbar-dark" href="#">
+                    <img src="assets/img/viajes.svg" alt="logotipo" width="70px" height="50px">
                     Viajes Chile
                 </a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
@@ -35,9 +35,9 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ms-auto me-5 gap-3 mt-2 mt-lg-0">
-                        <li class="nav-item active">
+                <div class="collapse navbar-collapse flex-lg-row-reverse navbar-dark" id="collapsibleNavId">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item active text-white">
                             <a class="nav-link text-white" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
@@ -53,6 +53,7 @@
                 </div>
             </div>
         </nav>
+
         <!--Carousel-->
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
@@ -83,8 +84,8 @@
     </header>
 
     <!--Nosotros -->
-    <article>
-        <div id="Nosotros" class="fondo text-white">
+    <article id="Nosotros">
+        <div class="fondo text-white">
             <div class="container">
                 <div class="row text-md-center justify-content-lg-center fondo">
                     <h1 class="fw-bold text-center py-3  text-white">¿QUIÉNES SOMOS?</h1>
@@ -123,7 +124,7 @@
         </div>
     </article>
 
-    <!-- Destacados Card-->
+    <!-- Destacados - Card-->
     <section id="destacados" class="text-white fondo">
         <div class="container">
             <div class="row text-md-center justify-content-lg-center">
@@ -198,7 +199,9 @@
                             <textarea class="form-control" id="floatingTextarea2" style="height: 300px"></textarea>
                         </div>
                         <div class="mb-3 ">
-                            <button id="correo"  type="button" class="btn btn-info btn-lg button text-white" data-bs-toggle="modal" data-bs-placement="button" title="Presiona para enviar" data-bs-target="#staticBackdrop">Enviar</button><a href="#"></a>
+                            <button id="correo" type="button" class="btn btn-info btn-lg button text-white"
+                                data-bs-toggle="modal" data-bs-placement="button" title="Presiona para enviar"
+                                data-bs-target="#staticBackdrop">Enviar</button><a href="#"></a>
                         </div>
                     </form>
                 </div>

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    color: #ffffff;
 }
 
 body {
@@ -13,8 +14,7 @@ body {
 .navega {
     position: absolute;
     width: 100%;
-    top: 20px;
-    z-index: 2;
+
 }
 
 /*Carousel*/
