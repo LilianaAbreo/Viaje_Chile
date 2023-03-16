@@ -3,13 +3,20 @@
     padding: 0;
     border: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
+body {
+    font-family: 'Raleway', sans-serif;
 
+}
 /* Smooth scroll */
 html {
     scroll-behavior: smooth;
 }
-
+/*HEADER*/
+section {
+    background-color: #000;
+}
 /* Nav */
 .navega {
     position: absolute;
@@ -28,9 +35,4 @@ html {
     width: 100%;
     top: 0;
 }
-
-/*HEADER*/
-body {
-    background-color: #000;
-    font-family: 'Raleway', sans-serif;
-}
+/*section*/
