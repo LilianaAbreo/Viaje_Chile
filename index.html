@@ -23,7 +23,7 @@
 <body>
     <header>
         <!-- Barra de navegacion -->
-        <nav class="navega navbar-expand-lg navbar-dark">
+        <nav class="navega navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/viajes.svg" alt="logotip" width="70px" height="50px">
@@ -52,7 +52,6 @@
                 </div>
             </div>
         </nav>
-
         <!--Carousel-->
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
@@ -81,90 +80,106 @@
             </button>
         </div>
     </header>
-    <!-- Destacados -->
-    <section class="container">
+    <div class="text-white fondo">
+        <!-- Destacados -->
+        <section class="container">
+            <div class="row text-md-center justify-content-lg-center">
+                <h1 class="fw-bold text-center py-3  text-white">DESTACADOS</h1>
+                <hr>
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-3 col-12 px-1 mb-2">
+                    <div class="card h-100 ">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Paisaje1" width="100%" height="100%">
+                        <div class="card-body text-bg-info">
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-12 px-1 mb-2">
+                    <div class="card h-100 ">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Paisaje2" width="100%" height="100%">
+                        <div class="card-body text-bg-info">
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-12 px-1 mb-2">
+                    <div class="card h-100 ">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="Paisaje3" width="100%" height="100%">
+                        <div class="card-body text-bg-info">
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-12 px-1 mb-2">
+                    <div class="card h-100 ">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Paisaje4" width="100%" height="100%">
+                        <div class="card-body  text-bg-info">
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Contacto - Formulario-->
+    <div class="text-white fondo">
         <div class="row text-md-center justify-content-lg-center">
-            <h1 class="fw-bold text-center py-3  text-white">DESTACADOS</h1>
+            <h1 class="fw-bold text-center py-3 text-white">CONTACTO</h1>
             <hr>
         </div>
-        <div class="row py-5">
-            <div class="col-sm-3 col-12 px-1 mb-2">
-                <div class="card h-100 ">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="Paisaje1" width="100%" height="100%">
-                    <div class="card-body text-bg-info">
-                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
-                            vulputate nostra, blandit erat luctus faucibus orci.</p>
+        <article class="text-lg-start fondo">
+            <div class="container text-light d-md-block py-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label"> Nombre</label>
+                        <input type="text" id="disabledTextInput" class="form-control">
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-3 col-12 px-1 mb-2">
-                <div class="card h-100 ">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="Paisaje2" width="100%" height="100%">
-                    <div class="card-body text-bg-info">
-                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
-                            vulputate nostra, blandit erat luctus faucibus orci.</p>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label"> Asunto</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-3 col-12 px-1 mb-2">
-                <div class="card h-100 ">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="Paisaje3" width="100%" height="100%">
-                    <div class="card-body text-bg-info">
-                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
-                            vulputate nostra, blandit erat luctus faucibus orci.</p>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label"> Mensaje</label>
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-3 col-12 px-1 mb-2">
-                <div class="card h-100 ">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="Paisaje4" width="100%" height="100%">
-                    <div class="card-body  text-bg-info">
-                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
-                            vulputate nostra, blandit erat luctus faucibus orci.</p>
+                    <div class="mb-3 ">
+                        <button type="submit" class="btn btn-info btn-lg button text-white">Enviar</button>
                     </div>
-                </div>
+                </form>
             </div>
-        </div>
-    </section>
-
-    <!-- Contacto - Formulario-->
-    <div class="row text-md-center justify-content-lg-center">
-        <h1 class="fw-bold text-center py-3 text-white">CONTACTO</h1>
-        <hr>
     </div>
-    <article class="text-lg-start bg-dark">
-        <div class="container text-light d-md-block py-3">
-            <form>
-                <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label"> Nombre</label>
-                    <input type="text" id="disabledTextInput" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label"> Asunto</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                </div>
-                <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label"> Mensaje</label>
-                    <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
-                </div>
-                <div class="mb-3 ">
-                    <button type="submit" class="btn btn-info btn-lg button text-white">Enviar</button>
-                </div>
-            </form>
-        </div>
     </article>
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer class="container-fluid bg-info text-light d-none d-md-block py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h2 class="text-light fw-bold fs-1 display-5 text-center">Viajes Chile</h2>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-brands fa-github fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-linkedin fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-square-twitter fa-4x"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-square-facebook fa-4x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
